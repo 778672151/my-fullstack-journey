@@ -1,0 +1,10 @@
+# align-mode 装配层
+#
+# 注册一个 AI 自主决定是否使用的对齐工具（align_deliver）+ 一段使用场景说明。
+# 依赖 userQuestions（dsh-base 自带 dsh-user-questions；Web/桌面 profile 均有卡片 UI）。
+#
+# 验证：--patch 叠加即可；正式安装走 plugin_manager 的 install_bundle。
+- insert:
+    - id: align-mode
+      name: '@dsh-external/align-mode'
+      config: {}

@@ -1,0 +1,43 @@
+{
+  "name": "@dsh-external/align-mode",
+  "version": "0.1.0",
+  "private": false,
+  "description": "交付对齐模式：AI 逐块交付并当场对齐，你可直接改文件，AI 重读后继续；方向错了可安全返工。",
+  "type": "module",
+  "main": "./plugin.mjs",
+  "files": [
+    "plugin.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "ROADMAP.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "alignment",
+    "review",
+    "workflow",
+    "collaboration"
+  ],
+  "license": "MIT",
+  "author": "778672151",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/778672151/my-fullstack-journey.git",
+    "directory": "align-mode"
+  },
+  "homepage": "https://github.com/778672151/my-fullstack-journey/tree/main/align-mode#readme",
+  "bugs": {
+    "url": "https://github.com/778672151/my-fullstack-journey/issues"
+  }
+}
